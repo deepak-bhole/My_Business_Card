@@ -1,0 +1,44 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+Temp/*
+Library/*
+Build/*
+#Un-ignore these specific files
+!Library/*.asset
+!Library/AssetImportState
+!Library/AssetVersioning.db
+!Library/BuildPlayer.prefs
+!Library/ScriptMapper
+!Library/assetservercachev3
+!Library/expandedItems
+!Library/guidmapper
+!Library/unity default resources
+!Library/unity editor resources
+!Library/metadata/
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.eslintcache
+
+Server/node_modules
+Server/config.js
